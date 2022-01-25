@@ -4,53 +4,48 @@
 }
 
 .u-section-1 .u-sheet-1 {
-  min-height: 475px;
+  min-height: 450px;
+}
+
+.u-section-1 .u-image-1 {
+  width: 83px;
+  height: 83px;
+  margin: 99px auto 0;
 }
 
 .u-section-1 .u-text-1 {
   width: 541px;
-  margin: 60px auto 0;
-}
-
-.u-section-1 .u-icon-1 {
-  width: 64px;
-  height: 64px;
-  margin: -205px auto 154px;
+  margin: 0 auto 60px;
 }
 
 @media (max-width: 1199px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 392px;
+    min-height: 400px;
   }
-}
 
-@media (max-width: 991px) {
-  .u-section-1 .u-sheet-1 {
-    min-height: 300px;
+  .u-section-1 .u-image-1 {
+    margin-top: 60px;
   }
 }
 
 @media (max-width: 767px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 350px;
+    min-height: 374px;
   }
 
   .u-section-1 .u-text-1 {
     width: 418px;
   }
-
-  .u-section-1 .u-icon-1 {
-    margin-bottom: 128px;
-  }
 }
 
 @media (max-width: 575px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 375px;
+    min-height: 377px;
   }
 
   .u-section-1 .u-text-1 {
     width: auto;
+    margin-top: 16px;
     margin-left: 0;
     margin-right: 0;
   }
@@ -82,7 +77,6 @@
   grid-gap: 25px 25px;
   grid-template-columns: calc(33.3333% - 16.6667px) calc(33.3333% - 16.6667px) calc(33.3333% - 16.6667px);
   min-height: 189px;
-  grid-auto-columns: calc(33.3333% - 16.6667px);
 }
 
 .u-section-2 .u-container-layout-1 {
@@ -127,8 +121,6 @@
 @media (max-width: 1199px) {
   .u-section-2 .u-repeater-1 {
     min-height: 156px;
-    grid-auto-columns: calc(33.333333333333336% - 16.6667px);
-    grid-template-columns: repeat(3, calc(33.333333333333336% - 16.6667px));
   }
 }
 
@@ -140,14 +132,12 @@
 
   .u-section-2 .u-repeater-1 {
     min-height: 358px;
-    grid-auto-columns: calc(50% - 12.500024999999999px);
-    grid-template-columns: repeat(2, calc(50% - 12.500024999999999px));
+    grid-template-columns: calc(50% - 12.5px) calc(50% - 12.5px);
   }
 }
 
 @media (max-width: 767px) {
   .u-section-2 .u-repeater-1 {
-    grid-auto-columns: calc(100% - 0px);
     grid-template-columns: 100%;
   }
 }
@@ -155,10 +145,6 @@
 @media (max-width: 575px) {
   .u-section-2 .u-text-1 {
     width: 175px;
-  }
-
-  .u-section-2 .u-repeater-1 {
-    grid-auto-columns: 100%;
   }
 }.u-section-3 .u-sheet-1 {
   min-height: 529px;
