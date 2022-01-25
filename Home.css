@@ -59,18 +59,77 @@
 }
 
 .u-section-2 .u-sheet-1 {
-  min-height: 261px;
+  min-height: 317px;
 }
 
 .u-section-2 .u-text-1 {
   font-weight: 700;
   font-size: 1.25rem;
   text-decoration: underline !important;
-  margin: 33px auto 0;
+  margin: 16px auto 0;
 }
 
 .u-section-2 .u-text-2 {
-  margin: 16px auto 33px;
+  margin: 0 auto;
+}
+
+.u-section-2 .u-list-1 {
+  margin-top: 29px;
+  margin-bottom: 29px;
+}
+
+.u-section-2 .u-repeater-1 {
+  grid-gap: 25px 25px;
+  grid-template-columns: calc(33.3333% - 16.6667px) calc(33.3333% - 16.6667px) calc(33.3333% - 16.6667px);
+  min-height: 189px;
+  grid-auto-columns: calc(33.3333% - 16.6667px);
+}
+
+.u-section-2 .u-container-layout-1 {
+  padding: 10px;
+}
+
+.u-section-2 .u-text-3 {
+  font-weight: 700;
+  margin: 0 auto;
+}
+
+.u-section-2 .u-text-4 {
+  margin: 16px 0 0;
+}
+
+.u-section-2 .u-container-layout-2 {
+  padding: 10px;
+}
+
+.u-section-2 .u-text-5 {
+  font-weight: 700;
+  margin: 0 auto;
+}
+
+.u-section-2 .u-text-6 {
+  margin: 16px 0 0;
+}
+
+.u-section-2 .u-container-layout-3 {
+  padding: 10px;
+}
+
+.u-section-2 .u-text-7 {
+  font-weight: 700;
+  margin: 0 auto;
+}
+
+.u-section-2 .u-text-8 {
+  margin: 16px 0 0;
+}
+
+@media (max-width: 1199px) {
+  .u-section-2 .u-repeater-1 {
+    min-height: 156px;
+    grid-auto-columns: calc(33.333333333333336% - 16.6667px);
+    grid-template-columns: repeat(3, calc(33.333333333333336% - 16.6667px));
+  }
 }
 
 @media (max-width: 991px) {
@@ -78,15 +137,28 @@
     margin-left: 0;
     margin-right: 0;
   }
+
+  .u-section-2 .u-repeater-1 {
+    min-height: 358px;
+    grid-auto-columns: calc(50% - 12.500024999999999px);
+    grid-template-columns: repeat(2, calc(50% - 12.500024999999999px));
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-2 .u-repeater-1 {
+    grid-auto-columns: calc(100% - 0px);
+    grid-template-columns: 100%;
+  }
 }
 
 @media (max-width: 575px) {
-  .u-section-2 .u-sheet-1 {
-    min-height: 393px;
-  }
-
   .u-section-2 .u-text-1 {
     width: 175px;
+  }
+
+  .u-section-2 .u-repeater-1 {
+    grid-auto-columns: 100%;
   }
 }.u-section-3 .u-sheet-1 {
   min-height: 529px;
@@ -95,7 +167,7 @@
 .u-section-3 .u-list-1 {
   width: 1140px;
   grid-template-rows: auto;
-  margin: 50px 0 32px;
+  margin: 50px 0 40px;
 }
 
 .u-section-3 .u-repeater-1 {
@@ -139,6 +211,7 @@
 
 .u-section-3 .u-image-2 {
   height: 213px;
+  object-position: 0% 50%;
   margin: 18px 0 0;
 }
 
