@@ -3,53 +3,32 @@
   background-position: 50% 50%;
 }
 
-.u-section-1 .u-sheet-1 {
-  min-height: 570px;
-}
-
 .u-section-1 .u-image-1 {
-  height: 570px;
-  margin-top: 0;
-  margin-bottom: 0;
+  min-height: 570px;
+  background-image: url("images/pricing_chart1.png");
 }
 
 @media (max-width: 1199px) {
-  .u-section-1 .u-sheet-1 {
-    min-height: 470px;
-  }
-
   .u-section-1 .u-image-1 {
-    height: 470px;
+    min-height: 470px;
   }
 }
 
 @media (max-width: 991px) {
-  .u-section-1 .u-sheet-1 {
-    min-height: 361px;
-  }
-
   .u-section-1 .u-image-1 {
-    height: 361px;
+    min-height: 360px;
   }
 }
 
 @media (max-width: 767px) {
-  .u-section-1 .u-sheet-1 {
-    min-height: 271px;
-  }
-
   .u-section-1 .u-image-1 {
-    height: 271px;
+    min-height: 270px;
   }
 }
 
 @media (max-width: 575px) {
-  .u-section-1 .u-sheet-1 {
-    min-height: 173px;
-  }
-
   .u-section-1 .u-image-1 {
-    height: 173px;
+    min-height: 170px;
   }
 } .u-section-2 {
   background-image: none;
