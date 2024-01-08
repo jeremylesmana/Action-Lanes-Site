@@ -6,6 +6,7 @@
 .u-section-1 .u-image-1 {
   min-height: 570px;
   background-image: url("images/pricing_chart4.png");
+  background-position: 50% 50%;
 }
 
 @media (max-width: 1199px) {
@@ -35,12 +36,12 @@
 }
 
 .u-section-2 .u-sheet-1 {
-  min-height: 235px;
+  min-height: 241px;
 }
 
 .u-section-2 .u-text-1 {
+  font-size: 1.25rem;
   font-weight: 700;
-  font-size: 1.5rem;
   margin: 14px auto 0;
 }
 
@@ -68,24 +69,24 @@
 }
 
 .u-section-3 .u-sheet-1 {
-  min-height: 477px;
+  min-height: 459px;
 }
 
 .u-section-3 .u-text-1 {
-  font-size: 1.5rem;
   font-weight: 700;
+  font-size: 1.875rem;
   margin: 18px auto 0;
 }
 
 .u-section-3 .u-list-1 {
-  margin-bottom: 40px;
+  margin-bottom: 44px;
   margin-top: 18px;
 }
 
 .u-section-3 .u-repeater-1 {
   grid-gap: 10px 10px;
   grid-template-columns: calc(50% - 5px) calc(50% - 5px);
-  min-height: 375px;
+  min-height: 331px;
 }
 
 .u-section-3 .u-container-layout-1 {
@@ -100,12 +101,13 @@
 
 .u-section-3 .u-icon-1 {
   width: 64px;
-  margin: 30px auto 0;
+  height: 64px;
+  margin: 11px auto 0;
 }
 
 .u-section-3 .u-text-3 {
   font-size: 1.125rem;
-  margin: 29px 0 0;
+  margin: 18px 0 0;
 }
 
 .u-section-3 .u-container-layout-2 {
@@ -120,12 +122,13 @@
 
 .u-section-3 .u-icon-2 {
   width: 64px;
-  margin: 30px auto 0;
+  height: 64px;
+  margin: 11px auto 0;
 }
 
 .u-section-3 .u-text-5 {
   font-size: 1.125rem;
-  margin: 29px 0 0;
+  margin: 18px 0 0;
 }
 
 @media (max-width: 1199px) {
