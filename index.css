@@ -194,8 +194,26 @@
     margin-top: 6px;
   }
 
+  .u-section-2 .u-text-3 {
+    width: 233px;
+    margin-top: 18px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .u-section-2 .u-text-4 {
+    margin-top: 14px;
+  }
+
   .u-section-2 .u-text-5 {
-    margin-left: 87px;
+    width: 233px;
+    margin-top: 18px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .u-section-2 .u-text-6 {
+    margin-top: 14px;
   }
 }.u-section-3 .u-sheet-1 {
   min-height: 529px;
